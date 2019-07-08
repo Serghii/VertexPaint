@@ -5,6 +5,7 @@ Temp
 *.sln
 [Tt]emp
 .vs
+Jenny
 
 Assets/Plugins/Editor/JetBrains.meta
 Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll
