@@ -8,15 +8,51 @@
 //------------------------------------------------------------------------------
 public static class GameComponentsLookup {
 
+    public const int Brush = 0;
+    public const int BrushPosition = 1;
+    public const int Destroy = 2;
+    public const int DestroyImmediate = 3;
+    public const int Drawable = 4;
+    public const int GameIdIndex = 5;
+    public const int HistoryBrash = 6;
+    public const int HistoryStrokes = 7;
+    public const int Id = 8;
+    public const int MouseHit = 9;
+    public const int ReactiveHandler = 10;
+    public const int StrokeSteps = 11;
+    public const int Undo = 12;
 
-
-    public const int TotalComponents = 0;
+    public const int TotalComponents = 13;
 
     public static readonly string[] componentNames = {
-
+        "Brush",
+        "BrushPosition",
+        "Destroy",
+        "DestroyImmediate",
+        "Drawable",
+        "GameIdIndex",
+        "HistoryBrash",
+        "HistoryStrokes",
+        "Id",
+        "MouseHit",
+        "ReactiveHandler",
+        "StrokeSteps",
+        "Undo"
     };
 
     public static readonly System.Type[] componentTypes = {
-
+        typeof(Brush),
+        typeof(BrushPosition),
+        typeof(DestroyComponent),
+        typeof(DestroyImmediateComponent),
+        typeof(DrawableComponent),
+        typeof(GameIdIndexComponent),
+        typeof(HistoryBrashComponent),
+        typeof(HistoryStrokes),
+        typeof(IdComponent),
+        typeof(MouseHitComponent),
+        typeof(ReactiveHandlerComponent),
+        typeof(StrokeStepsComponent),
+        typeof(UndoComponent)
     };
 }
